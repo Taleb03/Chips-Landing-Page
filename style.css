@@ -16,7 +16,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.7rem;
+  padding: 1.5rem;
 }
 
 .left {
@@ -54,7 +54,7 @@ ul li {
 a {
   text-decoration: none;
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .right {
@@ -72,7 +72,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  border: 1.8px solid #948E8F;
+  border: 1.8px solid #948e8f;
   padding: 0.8rem;
   border-radius: 2rem;
 }
