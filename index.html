@@ -7,7 +7,22 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
+    <!-- Mobile/Tablet Nav -->
+    <nav class="mnav">
+      <div class="close">
+        <img src="Assets/close-line.png" alt="" />
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Desktop Nav -->
+    <nav class="dnav">
       <div class="left">
         <img src="Assets/kindpng_1743185 2.png" alt="" />
       </div>
@@ -21,8 +36,11 @@
       <div class="right">
         <div class="search-bar">
           <img src="Assets/search-01.png" alt="" />
-          <input type="search" placeholder="Search..."/>
+          <input type="text" placeholder="Search..." />
         </div>
+      </div>
+      <div class="dashboard-btn">
+        <img src="Assets/dashboard-square-02.png" alt="" />
       </div>
     </nav>
     <script src="script.js"></script>
