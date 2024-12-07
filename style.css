@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f7efed;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.7rem;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6.5rem;
+  height: auto;
+}
+
+.left img {
+  width: 6.5rem;
+  height: auto;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.75rem;
+}
+
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.right .search-bar {
+  display: flex;
+  width: 14rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 1.8px solid #948E8F;
+  padding: 0.8rem;
+  border-radius: 2rem;
+}
+
+.right img {
+  width: 1.8rem;
+  height: auto;
+}
+
+.right input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
