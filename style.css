@@ -7,6 +7,7 @@
   font-family: "Poppins", serif;
   color: black;
   transition: 1s ease all;
+  overflow: hidden;
 }
 
 html,
@@ -20,7 +21,6 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  overflow: hidden;
   padding: 1rem 2.5rem;
 }
 
@@ -32,9 +32,19 @@ nav {
   justify-content: center;
 }
 
+.left {
+  opacity: 0;
+  transform: translateX(-200px);
+}
+
 .left img {
   width: 6.5rem;
   height: auto;
+}
+
+.middle ul li a {
+  opacity: 0;
+  transform: translateY(-50px);
 }
 
 .middle ul {
@@ -53,6 +63,11 @@ nav {
 .middle ul li a {
   text-decoration: none;
   font-size: 1.1rem;
+}
+
+.search-bar {
+  opacity: 0;
+  transform: translateX(500px);
 }
 
 .search-bar {
@@ -79,6 +94,8 @@ nav {
 }
 
 .dashboard-btn {
+  opacity: 0;
+  transform: translateX(200px);
   display: none;
 }
 
@@ -97,6 +114,12 @@ nav {
 
 .mnav .close {
   position: absolute;
+  opacity: 0;
+}
+
+.links ul li a {
+  opacity: 0;
+  transform: translateY(-500px);
 }
 
 .mnav ul {
