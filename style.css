@@ -63,6 +63,8 @@ nav {
 .middle ul li a {
   text-decoration: none;
   font-size: 1.1rem;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .search-bar {
@@ -120,6 +122,8 @@ nav {
 .links ul li a {
   opacity: 0;
   transform: translateY(-500px);
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 .mnav ul {
