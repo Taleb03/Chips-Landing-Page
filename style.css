@@ -7,7 +7,13 @@
   font-family: "Poppins", serif;
   color: black;
   transition: 1s ease all;
-  overflow: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  overflow: -moz-scrollbars-none; /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 html,
@@ -138,6 +144,38 @@ nav {
 
 .mnav ul li a {
   text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.hleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hright {
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 1601px) {
@@ -304,8 +342,8 @@ nav {
     height: auto;
   }
   .mnav .close {
-    top: 7rem;
-    right: 5rem;
+    top: 2rem;
+    right: 3rem;
   }
   .mnav .close img {
     width: 2rem;
