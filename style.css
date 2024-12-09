@@ -26,6 +26,7 @@ body {
 nav {
   display: flex;
   align-items: center;
+  height: auto;
   justify-content: space-between;
   padding: 1rem 2.5rem;
 }
@@ -149,6 +150,7 @@ nav {
 .hero {
   display: flex;
   align-items: center;
+  margin-top: 2.8rem;
   justify-content: space-evenly;
 }
 
@@ -338,7 +340,7 @@ nav {
   }
 
   .hero {
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
 
   .hleft > h1 {
@@ -661,6 +663,216 @@ nav {
   }
 
   .hero {
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .hleft > h1 {
+    font-size: 2rem;
+    width: 12.1rem;
+    line-height: 2.5rem;
+  }
+
+  .hleft > p {
+    width: 20rem;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    margin-top: 0.5rem;
+  }
+
+  .shop .shop-btn {
+    padding: 1rem;
+    border-radius: 3rem;
+    height: 2.8rem;
+    gap: 1.1rem;
+  }
+
+  .shop .shop-btn .shop-img {
+    border-radius: 3rem;
+    padding: 0.8rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .shop .shop-btn img {
+    width: 1.6rem;
+  }
+
+  .shop-btn p {
+    font-size: 0.8rem;
+  }
+
+  .count-ring {
+    padding: 1.2rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .count-img {
+    padding: 0.9rem;
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .count-ring:nth-child(2) {
+    padding: 1.3rem;
+  }
+
+  .count-ring:nth-child(2) .count-img {
+    padding: 1rem;
+  }
+
+  .count-img p {
+    font-size: 1rem;
+  }
+
+  .hright img {
+    width: 15rem;
+  }
+
+  .bg1 {
+    width: 14rem;
+    height: 12rem;
+  }
+
+  .bg2 {
+    width: 14rem;
+    height: 12rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+  .middle,
+  .right {
+    display: none;
+  }
+
+  .dashboard-btn {
+    display: block;
+  }
+
+  .left img {
+    width: 5rem;
+    height: auto;
+  }
+  .mnav .close {
+    top: 5rem;
+    right: 5rem;
+  }
+  .mnav .close img {
+    width: 2rem;
+    height: auto;
+  }
+  .mnav ul li a {
+    font-size: 1.3rem;
+  }
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .hleft > h1 {
+    font-size: 2rem;
+    width: 12.1rem;
+    line-height: 2.5rem;
+  }
+
+  .hleft > p {
+    width: 17.7rem;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+    margin-top: 0.5rem;
+  }
+
+  .shop .shop-btn {
+    padding: 1rem;
+    border-radius: 3rem;
+    height: 2.8rem;
+    gap: 1.1rem;
+  }
+
+  .shop .shop-btn .shop-img {
+    border-radius: 3rem;
+    padding: 0.8rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .shop .shop-btn img {
+    width: 1.6rem;
+  }
+
+  .shop-btn p {
+    font-size: 0.8rem;
+  }
+
+  .count-ring {
+    padding: 1.2rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .count-img {
+    padding: 0.9rem;
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .count-ring:nth-child(2) {
+    padding: 1.3rem;
+  }
+
+  .count-ring:nth-child(2) .count-img {
+    padding: 1rem;
+  }
+
+  .count-img p {
+    font-size: 1rem;
+  }
+
+  .hright img {
+    margin-top: 5rem;
+    width: 15rem;
+  }
+
+  .bg1 {
+    width: 14rem;
+    height: 12rem;
+  }
+
+  .bg2 {
+    width: 14rem;
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .middle,
+  .right {
+    display: none;
+  }
+
+  .dashboard-btn {
+    display: block;
+  }
+
+  .left img {
+    width: 3.5rem;
+    height: auto;
+  }
+  .mnav .close {
+    top: 2rem;
+    right: 3rem;
+  }
+  .mnav .close img {
+    width: 2rem;
+    height: auto;
+  }
+  .mnav ul li a {
+    font-size: 1.1rem;
+  }
+  .hero {
     flex-direction: column;
     justify-content: center;
     margin-top: 3rem;
@@ -731,66 +943,12 @@ nav {
   }
 
   .bg1 {
-    width: 14rem;
-    height: 12rem;
+    width: 10rem;
+    height: 10rem;
   }
 
   .bg2 {
-    width: 14rem;
-    height: 12rem;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 600px) {
-  .middle,
-  .right {
-    display: none;
-  }
-
-  .dashboard-btn {
-    display: block;
-  }
-
-  .left img {
-    width: 5rem;
-    height: auto;
-  }
-  .mnav .close {
-    top: 5rem;
-    right: 5rem;
-  }
-  .mnav .close img {
-    width: 2rem;
-    height: auto;
-  }
-  .mnav ul li a {
-    font-size: 1.3rem;
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  .middle,
-  .right {
-    display: none;
-  }
-
-  .dashboard-btn {
-    display: block;
-  }
-
-  .left img {
-    width: 3.5rem;
-    height: auto;
-  }
-  .mnav .close {
-    top: 2rem;
-    right: 3rem;
-  }
-  .mnav .close img {
-    width: 2rem;
-    height: auto;
-  }
-  .mnav ul li a {
-    font-size: 1.1rem;
-  }
+    width: 10rem;
+    height: 10rem;
+  } 
 }
