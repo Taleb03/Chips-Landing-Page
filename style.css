@@ -84,7 +84,7 @@ nav {
   height: 3rem;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 0.625rem;
   border: 1.8px solid #948e8f;
   padding: 0.8rem;
   border-radius: 2rem;
@@ -117,7 +117,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.3);
 }
 
 .mnav .close {
@@ -149,8 +149,7 @@ nav {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 2rem;
+  justify-content: space-evenly;
 }
 
 .hleft {
@@ -159,11 +158,61 @@ nav {
   justify-content: center;
 }
 
+.hleft > h1 {
+  font-size: 3rem;
+  width: 30rem;
+  line-height: 3.7rem;
+}
+
+.hleft > p {
+  color: #606061;
+  width: 31.8rem;
+  font-size: 1.19rem;
+  line-height: 1.925rem;
+}
+
 .shop {
+  margin-top: 2.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+}
+
+.shop .shop-btn {
+  cursor: pointer;
+  background-color: black;
+  border: none;
+  padding: 1rem 1rem;
+  border-radius: 3rem;
+  height: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.shop .shop-btn .shop-img {
+  border-radius: 2rem;
+  display: flex;
+  background-color: #fecb3c;
+  padding: 0.063rem;
+  width: 3rem;
+  height: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop .shop-btn img {
+  width: 2rem;
+  height: auto;
+  padding: 0.313rem;
+}
+
+.shop-btn p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: white;
 }
 
 .count {
@@ -173,9 +222,74 @@ nav {
   gap: 1rem;
 }
 
+.count-ring {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  padding: 1.5rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.count-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 0.938rem;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+
+.count-img img {
+  width: 1rem;
+  height: auto;
+}
+
+.count-ring:nth-child(2) {
+  padding: 1.9rem;
+}
+
+.count-ring:nth-child(2) .count-img {
+  padding: 1.438rem;
+}
+
+.count-img p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #fff;
+}
+
 .hright {
   display: flex;
   justify-content: center;
+}
+
+.hright img {
+  width: 23.263rem;
+  z-index: 0;
+  height: auto;
+  background: radial-gradient(circle, black, transparent 60%);
+}
+
+.bg1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 30rem;
+  height: 25rem;
+}
+
+.bg2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 30rem;
+  height: 20rem;
 }
 
 @media (min-width: 1601px) {
