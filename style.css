@@ -150,7 +150,6 @@ nav {
 .hero {
   display: flex;
   align-items: center;
-  margin-top: 2.8rem;
   justify-content: space-evenly;
 }
 
@@ -202,6 +201,7 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  z-index: 1;
 }
 
 .shop .shop-btn .shop-img {
@@ -222,7 +222,7 @@ nav {
 }
 
 .shop-btn p {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: white;
 }
@@ -298,6 +298,7 @@ nav {
   height: 20rem;
   opacity: 0;
   transform: translateX(-100px);
+  z-index: 0;
 }
 
 .bg2 {
@@ -308,6 +309,7 @@ nav {
   height: 20rem;
   opacity: 0;
   transform: translateX(100px);
+  z-index: 0;
 }
 
 @media (min-width: 1601px) {
@@ -959,5 +961,5 @@ nav {
   .bg2 {
     width: 8rem;
     height: 8rem;
-  } 
+  }
 }
