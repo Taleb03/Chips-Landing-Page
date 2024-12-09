@@ -101,14 +101,22 @@ tl.to(".hright img", {
   duration: 0.2,
 });
 
-tl.to(".bg1", {
-  opacity: 1,
-  x: 0,
-  duration: 0.2,
-});
+tl.to(
+  ".bg1",
+  {
+    opacity: 1,
+    x: 0,
+    duration: 0.1,
+  },
+  "a"
+);
 
-tl.to(".bg2", {
-  opacity: 1,
-  x: 0,
-  duration: 0.2,
-});
+tl.to(
+  ".bg2",
+  {
+    opacity: 1,
+    x: 0,
+    duration: 0.1,
+  },
+  "a"
+);
