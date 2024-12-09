@@ -336,6 +336,83 @@ nav {
   .right .search-bar input {
     font-size: 1.15rem;
   }
+
+  .hero {
+    margin-top: 5rem;
+  }
+
+  .hleft > h1 {
+    font-size: 5rem;
+    width: 31rem;
+    line-height: 4.7rem;
+  }
+
+  .hleft > p {
+    width: 34.7rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .shop .shop-btn {
+    padding: 1.5rem;
+    border-radius: 4rem;
+    height: 5.5rem;
+    gap: 1.5rem;
+  }
+
+  .shop .shop-btn .shop-img {
+    border-radius: 3rem;
+    padding: 1rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .shop .shop-btn img {
+    width: 3rem;
+  }
+
+  .shop-btn p {
+    font-size: 1.5rem;
+  }
+
+  .count-ring {
+    padding: 1.8rem;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .count-img {
+    padding: 1.3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .count-ring:nth-child(2) {
+    padding: 2.3rem;
+  }
+
+  .count-ring:nth-child(2) .count-img {
+    padding: 1.8rem;
+  }
+
+  .count-img p {
+    font-size: 2rem;
+  }
+
+  .hright img {
+    width: 30rem;
+  }
+
+  .bg1 {
+    width: 35rem;
+    height: 25rem;
+  }
+
+  .bg2 {
+    width: 35rem;
+    height: 25rem;
+  }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
@@ -369,6 +446,83 @@ nav {
 
   .right .search-bar input {
     font-size: 1rem;
+  }
+
+  .hero {
+    margin-top: 2.5rem;
+  }
+
+  .hleft > h1 {
+    font-size: 3rem;
+    width: 18.2rem;
+    line-height: 3.7rem;
+  }
+
+  .hleft > p {
+    width: 25.4rem;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+    margin-top: 1.2rem;
+  }
+
+  .shop .shop-btn {
+    padding: 1rem;
+    border-radius: 3rem;
+    height: 3.5rem;
+    gap: 1.2rem;
+  }
+
+  .shop .shop-btn .shop-img {
+    border-radius: 3rem;
+    padding: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+
+  .shop .shop-btn img {
+    width: 2rem;
+  }
+
+  .shop-btn p {
+    font-size: 1rem;
+  }
+
+  .count-ring {
+    padding: 1.5rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .count-img {
+    padding: 1.2rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .count-ring:nth-child(2) {
+    padding: 1.9rem;
+  }
+
+  .count-ring:nth-child(2) .count-img {
+    padding: 1.5rem;
+  }
+
+  .count-img p {
+    font-size: 1.4rem;
+  }
+
+  .hright img {
+    width: 19rem;
+  }
+
+  .bg1 {
+    width: 20rem;
+    height: 15rem;
+  }
+
+  .bg2 {
+    width: 20rem;
+    height: 15rem;
   }
 }
 
@@ -404,6 +558,83 @@ nav {
   .right .search-bar input {
     font-size: 1rem;
   }
+
+  .hero {
+    margin-top: 4rem;
+  }
+
+  .hleft > h1 {
+    font-size: 2.5rem;
+    width: 15.2rem;
+    line-height: 3rem;
+  }
+
+  .hleft > p {
+    width: 23.1rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    margin-top: 0.5rem;
+  }
+
+  .shop .shop-btn {
+    padding: 1rem;
+    border-radius: 3rem;
+    height: 3.2rem;
+    gap: 1.1rem;
+  }
+
+  .shop .shop-btn .shop-img {
+    border-radius: 3rem;
+    padding: 1rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .shop .shop-btn img {
+    width: 1.8rem;
+  }
+
+  .shop-btn p {
+    font-size: 0.9rem;
+  }
+
+  .count-ring {
+    padding: 1.3rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .count-img {
+    padding: 1rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .count-ring:nth-child(2) {
+    padding: 1.5rem;
+  }
+
+  .count-ring:nth-child(2) .count-img {
+    padding: 1.2rem;
+  }
+
+  .count-img p {
+    font-size: 1.2rem;
+  }
+
+  .hright img {
+    width: 16rem;
+  }
+
+  .bg1 {
+    width: 15rem;
+    height: 14rem;
+  }
+
+  .bg2 {
+    width: 15rem;
+    height: 14rem;
+  }
 }
 
 @media (min-width: 601px) and (max-width: 768px) {
@@ -427,6 +658,86 @@ nav {
   .mnav .close img {
     width: 2rem;
     height: auto;
+  }
+
+  .hero {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+
+  .hleft > h1 {
+    font-size: 2rem;
+    width: 12.1rem;
+    line-height: 2.5rem;
+  }
+
+  .hleft > p {
+    width: 20rem;
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    margin-top: 0.5rem;
+  }
+
+  .shop .shop-btn {
+    padding: 1rem;
+    border-radius: 3rem;
+    height: 2.8rem;
+    gap: 1.1rem;
+  }
+
+  .shop .shop-btn .shop-img {
+    border-radius: 3rem;
+    padding: 0.8rem;
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .shop .shop-btn img {
+    width: 1.6rem;
+  }
+
+  .shop-btn p {
+    font-size: 0.8rem;
+  }
+
+  .count-ring {
+    padding: 1.2rem;
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .count-img {
+    padding: 0.9rem;
+    width: 0.8rem;
+    height: 0.8rem;
+  }
+
+  .count-ring:nth-child(2) {
+    padding: 1.3rem;
+  }
+
+  .count-ring:nth-child(2) .count-img {
+    padding: 1rem;
+  }
+
+  .count-img p {
+    font-size: 1rem;
+  }
+
+  .hright img {
+    margin-top: 5rem;
+    width: 15rem;
+  }
+
+  .bg1 {
+    width: 14rem;
+    height: 12rem;
+  }
+
+  .bg2 {
+    width: 14rem;
+    height: 12rem;
   }
 }
 

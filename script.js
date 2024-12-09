@@ -120,3 +120,10 @@ tl.to(
   },
   "a"
 );
+
+window.addEventListener("resize", function () {
+  const hleftP = document.querySelector(".hleft > p");
+  if (window.innerWidth < 769) {
+    hleftP.innerHTML = hleftP.innerHTML.replace(/<br\s*\/?>/gi, " ");
+  }
+});
