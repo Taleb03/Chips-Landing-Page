@@ -2,6 +2,13 @@ var dashboardBtn = document.querySelector(".dashboard-btn");
 var closeBtn = document.querySelector(".close");
 var mobileNav = document.querySelector(".mnav");
 
+window.addEventListener("resize", function () {
+  const hleftP = document.querySelector(".hleft > p");
+  if (window.innerWidth < 769) {
+    hleftP.innerHTML = hleftP.innerHTML.replace(/<br\s*\/?>/gi, " ");
+  }
+});
+
 dashboardBtn.addEventListener("click", () => {
   mobileNav.style.display = "flex";
   gsap.to(".close", {
@@ -120,10 +127,3 @@ tl.to(
   },
   "a"
 );
-
-window.addEventListener("resize", function () {
-  const hleftP = document.querySelector(".hleft > p");
-  if (window.innerWidth < 769) {
-    hleftP.innerHTML = hleftP.innerHTML.replace(/<br\s*\/?>/gi, " ");
-  }
-});
