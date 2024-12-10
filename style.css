@@ -58,7 +58,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3.5rem;
+  gap: 2rem;
 }
 
 .middle ul li {
@@ -323,7 +323,7 @@ nav {
   }
 
   .middle ul {
-    gap: 8rem;
+    gap: 3rem;
   }
 
   .middle ul li a {
