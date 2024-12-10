@@ -6,21 +6,21 @@
   box-sizing: border-box;
   font-family: "Poppins", serif;
   color: black;
-  transition: 1s ease all;
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
-  overflow: -moz-scrollbars-none; /* Firefox */
+  transition: 0.3s ease all;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow: -moz-scrollbars-none;
 }
 
 *::-webkit-scrollbar {
-  display: none; /* Safari and Chrome */
+  display: none;
 }
 
 html,
 body {
   width: 100%;
   height: 100%;
-  background-color: #f7efed;
+  background-color: #fff9f0;
 }
 
 nav {
@@ -58,7 +58,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3.75rem;
+  gap: 3.5rem;
 }
 
 .middle ul li {
@@ -100,6 +100,7 @@ nav {
   width: 100%;
   border: none;
   background-color: transparent;
+  outline: none;
 }
 
 .dashboard-btn {
@@ -194,7 +195,7 @@ nav {
   cursor: pointer;
   background-color: black;
   border: none;
-  padding: 1rem 1rem;
+  padding: 1rem 0.7rem;
   border-radius: 3rem;
   height: 3.7rem;
   display: flex;
@@ -322,7 +323,7 @@ nav {
   }
 
   .middle ul {
-    gap: 9rem;
+    gap: 8rem;
   }
 
   .middle ul li a {
@@ -564,7 +565,7 @@ nav {
   }
 
   .hero {
-    margin-top: 4rem;
+    margin-top: 14rem;
   }
 
   .hleft > h1 {
@@ -666,7 +667,7 @@ nav {
 
   .hero {
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 7rem;
   }
 
   .hleft > h1 {
